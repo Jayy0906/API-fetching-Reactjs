@@ -1,4 +1,3 @@
-// src/context/AuthContext.jsx
 import { createContext, useContext, useState } from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
