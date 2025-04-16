@@ -11,7 +11,7 @@ This is a simple yet flexible authentication app built with **React**, allowing 
 - ✅ Toast notifications for user feedback
 - ✅ User context with React's Context API
 - ✅ Basic session state management
-- ✅ Protected routes (optional)
+- ✅ Protected routes
 
 ---
 
@@ -21,6 +21,7 @@ This is a simple yet flexible authentication app built with **React**, allowing 
 2. If an email is provided, the app fetches the corresponding username from DummyJSON's `/users` endpoint.
 3. Then, it authenticates the user via the `/auth/login` endpoint with the **username** and **password**.
 4. On success, the authenticated user object is stored in a global context.
+5. Users API - https://dummyjson.com/users, Products API - https://dummyjson.com/products. You can use users link to see username password to login.
 
 ---
 
